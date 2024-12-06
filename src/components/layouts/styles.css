@@ -1,0 +1,126 @@
+/* Header Styles */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1050;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* height: 66px; */
+}
+
+.header .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffc107;
+}
+
+.search-layout{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.header .navbar-toggler {
+  border: none;
+}
+
+.header .nav-link {
+  margin: 6px;
+  font-weight: 550;
+  font-size: 1rem;
+  color: #d9d9d9;
+  transition: color 0.3s ease;
+}
+
+.header .nav-link:hover {
+  color: #ffc107;
+}
+
+.header .form-control {
+  border-radius: 20px;
+}
+
+.header .btn-outline-info {
+  border-radius: 20px;
+}
+
+.header .dropdown-menu {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header .btn-outline-secondary {
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.search-box input {
+  /* width: 100%; */
+  /* padding: 8px 40px 8px 15px; */
+  border: 2px solid #6c757d;
+  border-radius: 20px;
+  background-color: #e5e5e5;
+  font-size: 1rem;
+  color: #343a40;
+  transition: border-color 0.3s ease;
+}
+
+.search-box input:focus {
+  border-color: #ffc107;
+  outline: none;
+}
+
+/* .search-box button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  color: #343a40;
+  cursor: pointer;
+} */
+
+/* .search-box button i {
+  font-size: 1.2rem;
+} */
+
+
+/* Footer Styles */
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+  color: #6c757d;
+  font-size: 0.875rem;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow on the top */
+  /* border-top: 1px solid #dee2e6; */
+  /* height: 90px; */
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #0056b3;
+}
+
+.footer .social-icons {
+  margin-top: 10px;
+}
+
+.footer .social-icons a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #6c757d;
+}
+
+.footer .social-icons a:hover {
+  color: #007bff;
+}
+
